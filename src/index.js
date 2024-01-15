@@ -16,7 +16,7 @@ let nivelXp = 10.000
     xp = "Ascendente"
 }else if (nivelXp >=8.001 && nivelXp <=9.000){
     xp = "Imortal"
-}else if (nivelXp >=9.001 && nivelXp <=10.000){
+} else (nivelXp >=101);{
     xp = "Radiante"
 }
 console.log("O Herói de nome", (nickHeroi), "está no nível de" ,(xp))
